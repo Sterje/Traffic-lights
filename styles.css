@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    padding: 50px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.red {
+    
+    background-color: red;
+    border: 5px solid rgb(134, 4, 4);
+    /* box-shadow: 0 0 50px 15px #e20202; */
+}
+
+.lightred {
+    
+    position:relative;
+    background-color: pink;
+    height: 50%;
+    top: 50%;
+    border-radius: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 5px solid rgb(169, 169, 2);
+    test
+    /* box-shadow: 0 0 50px 15px #b1cc01; */
+
+}
+
+.lightyellow {
+    position: relative;
+    background-color: rgb(240, 240, 92);
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    border-radius: 100px;
+}
+
+.green {
+    background-color: green;
+    border: 5px solid rgb(1, 81, 1);
+    box-shadow: 0 0 50px 5px #02cf05
+
+}
+
+.lightgreen {
+    position: relative;
+    background-color: rgb(86, 248, 86);
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    border-radius: 100px;
+}
